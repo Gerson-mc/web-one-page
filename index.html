@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Grupo EX® - 13 años de calidad, calidez, EXtrategias y resultados. Comunicaciones, Arte, Diseño, Alimentos, Asesoría Personal, Venta Online y Confecciones.">
+    <title>Grupo EX® | Viven la EXperiencia EX</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap Icons para iconografía limpia -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN FIJA (ONE-PAGE) -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="brand-logo" aria-label="Inicio Grupo EX">
+                <img src="img/logo2.png" alt="Logo Grupo EX®" class="logo-img">
+                <span class="brand-name">Grupo <strong>EX<sup>®</sup></strong></span>
+            </a>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#inicio" class="nav-item active">Inicio</a>
+                <a href="#empresa" class="nav-item">Nosotros</a>
+                <a href="#areas" class="nav-item">Áreas EX</a>
+                <a href="#contacto" class="nav-item btn-nav">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. HERO HEADER / SLIDER ANIMADO DE 2 DIAPOSITIVAS -->
+        <section id="inicio" class="hero-slider" aria-label="Presentación principal Grupo EX">
+            <div class="slides-wrapper" id="slides-wrapper">
+                
+                <!-- Diapositiva 1 -->
+                <article class="slide active" style="background-image: linear-gradient(135deg, rgba(10, 10, 10, 0.88), rgba(255, 0, 0, 0.35)), url('https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1600&q=80');">
+                    <div class="container slide-content">
+                        <span class="badge">13 Años de Trayectoria</span>
+                        <h1>Calidad, calidez, <span>EXtrategias</span> y resultados</h1>
+                        <p>Viven la EXperiencia EX. Impulsamos marcas y organizaciones con soluciones integrales de alto impacto.</p>
+                        <div class="hero-actions">
+                            <a href="#areas" class="btn btn-primary">Explorar Áreas EX</a>
+                            <a href="#contacto" class="btn btn-outline">Contáctanos</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Diapositiva 2 -->
+                <article class="slide" style="background-image: linear-gradient(135deg, rgba(10, 10, 10, 0.90), rgba(180, 0, 0, 0.40)), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');">
+                    <div class="container slide-content">
+                        <span class="badge">Presencia Internacional</span>
+                        <h1>Conectando mercados en <span>7 países</span></h1>
+                        <p>Ecuador, Colombia, Perú, Venezuela, Chile, EEUU y Suecia confían en el respaldo multidisciplinario de Grupo EX®.</p>
+                        <div class="hero-actions">
+                            <a href="#empresa" class="btn btn-primary">Nuestra Historia</a>
+                            <a href="#contacto" class="btn btn-outline">Inicia tu Proyecto</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- Controles del Slider -->
+            <button class="slider-btn prev" id="prev-slide" aria-label="Diapositiva anterior">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+            <button class="slider-btn next" id="next-slide" aria-label="Siguiente diapositiva">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+
+            <!-- Indicadores -->
+            <div class="slider-dots" id="slider-dots">
+                <button class="dot active" data-index="0" aria-label="Ir a diapositiva 1"></button>
+                <button class="dot" data-index="1" aria-label="Ir a diapositiva 2"></button>
+            </div>
+        </section>
+
+        <!-- 2. SECCIÓN EMPRESA & ÁREAS DE NEGOCIO -->
+        <section id="empresa" class="section about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <span class="section-subtitle">Sobre Grupo EX®</span>
+                        <h2>13 años creando la <span>EXperiencia EX</span></h2>
+                        <p>Somos un ecosistema empresarial conformado por organizaciones especializadas que trabajan en sinergia para ofrecer <strong>calidad, calidez, EXtrategias y resultados</strong> medibles.</p>
+                        <p>Nuestra visión traspasa fronteras, consolidando alianzas y clientes que hoy viven la EXperiencia EX en América y Europa.</p>
+                        
+                        <!-- Cinta de Países -->
+                        <div class="countries-box">
+                            <span class="countries-title"><i class="bi bi-globe-americas"></i> Presencia Internacional:</span>
+                            <div class="countries-tags">
+                                <span>Ecuador</span>
+                                <span>Colombia</span>
+                                <span>Perú</span>
+                                <span>Venezuela</span>
+                                <span>Chile</span>
+                                <span>EEUU</span>
+                                <span>Suecia</span>
+                            </div>
+                        </div>
+
+                        <div class="stats-row">
+                            <div class="stat-item">
+                                <strong>13+</strong>
+                                <span>Años de experiencia</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>7</strong>
+                                <span>Países con presencia</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>7</strong>
+                                <span>Áreas especializadas</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-visual">
+                        <div class="brand-card-showcase">
+                            <img src="img/logo2.png" alt="Isotipo Grupo EX®">
+                            <p>"Vive la EXperiencia EX"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sub-bloque: 7 Áreas de Organización -->
+                <div id="areas" class="services-block">
+                    <div class="section-header text-center">
+                        <span class="section-subtitle">Nuestras Organizaciones</span>
+                        <h2>Áreas de Especialización</h2>
+                        <p class="section-desc">Grupo EX® está conformado por organizaciones líderes en siete sectores clave.</p>
+                    </div>
+
+                    <div class="services-grid">
+                        <article class="service-card">
+                            <div class="icon-box"><i class="bi bi-megaphone"></i></div>
+                            <h3>Comunicaciones</h3>
+                            <p>Estrategias de comunicación corporativa, relaciones públicas y posicionamiento de marca.</p>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="icon-box"><i class="bi bi-palette"></i></div>
+                            <h3>Arte</h3>
+                            <p>Producción artística, dirección creativa y propuestas culturales con identidad única.</p>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="icon-box"><i class="bi bi-vector-pen"></i></div>
+                            <h3>Diseño</h3>
+                            <p>Identidad visual, diseño gráfico, editorial y soluciones visuales de alto impacto.</p>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="icon-box"><i class="bi bi-cup-hot"></i></div>
+                            <h3>Alimentos</h3>
+                            <p>Desarrollo y comercialización de productos alimenticios bajo estándares de calidad y calidez.</p>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="icon-box"><i class="bi bi-person-check"></i></div>
+                            <h3>Asesoría Personal</h3>
+                            <p>Acompañamiento estratégico, imagen y consultoría personalizada para potenciar talentos.</p>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="icon-box"><i class="bi bi-cart-check"></i></div>
+                            <h3>Venta Online</h3>
+                            <p>Comercio electrónico, canales digitales de distribución y experiencia de compra ágil.</p>
+                        </article>
+
+                        <article class="service-card service-card-featured">
+                            <div class="icon-box"><i class="bi bi-scissors"></i></div>
+                            <h3>Confecciones</h3>
+                            <p>Diseño textil, indumentaria corporativa y líneas de confección con acabados de excelencia.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SECCIÓN CONTACTO & REDES SOCIALES -->
+        <section id="contacto" class="section contact-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    
+                    <!-- Información y Redes Sociales -->
+                    <div class="contact-info">
+                        <span class="section-subtitle">Conecta con Nosotros</span>
+                        <h2>Vive la <span>EXperiencia EX</span></h2>
+                        <p>¿Buscas aliados estratégicos en alguna de nuestras 7 áreas? Escríbenos y hagamos realidad tus próximos resultados.</p>
+                        
+                        <ul class="contact-details">
+                            <li><i class="bi bi-globe2"></i> Ecuador • Colombia • Perú • Venezuela • Chile • EEUU • Suecia</li>
+                            <li><i class="bi bi-envelope-fill"></i> contacto@grupoex.com</li>
+                            <li><i class="bi bi-award-fill"></i> 13 años de calidad, calidez y resultados</li>
+                        </ul>
+
+                        <div class="social-links">
+                            <span>Síguenos en redes oficiales:</span>
+                            <div class="social-icons">
+                                <a href="https://www.instagram.com/ex.networking/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.facebook.com/GrupoEX.Ecuador/?locale=es_LA" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.linkedin.com/company/ex-ecommerce?originalSubdomain=br" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://www.tiktok.com/@ex.agencia.co" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Formulario Maquetado -->
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="correo">Correo electrónico</label>
+                            <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos qué área o servicio de Grupo EX® te interesa..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Enviar Mensaje <i class="bi bi-send-fill"></i>
+                        </button>
+                        <p class="form-feedback" id="form-feedback" role="status"></p>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="img/logo2.png" alt="Logo Grupo EX®" class="logo-img">
+                <p>&copy; 2026 <strong>Grupo EX<sup>®</sup></strong> — 13 años de calidad, calidez, EXtrategias y resultados.</p>
+            </div>
+            <a href="#inicio" class="back-to-top" aria-label="Volver arriba"><i class="bi bi-arrow-up-square-fill"></i></a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
